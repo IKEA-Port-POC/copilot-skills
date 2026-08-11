@@ -1,0 +1,11 @@
+name: kotlin-review
+type: skill
+version: 1.0.0
+description: "Use when reviewing Kotlin PRs, after writing significant Kotlin code, or when asked to review Kotlin files. Checks correctness, style, and architectural compliance."
+authors:
+  - name: Rauny Brandao
+    email: poc@example.com
+files:
+  skills:
+    - source: .
+      target: kotlin-review

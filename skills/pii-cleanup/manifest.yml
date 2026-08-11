@@ -1,0 +1,11 @@
+name: pii-cleanup
+type: skill
+version: 1.0.0
+description: "Use when removing PII (personal identifiable information) from a GitHub repository's git history. Runs git filter-repo with --sensitive-data-removal to rewrite history, verify the scrub, and force-push the cleaned result."
+authors:
+  - name: Javier Remeseiro
+    email: poc@example.com
+files:
+  skills:
+    - source: .
+      target: pii-cleanup
